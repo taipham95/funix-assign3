@@ -1,0 +1,76 @@
+@media screen and (min-width: 740px) and (max-width:1024px) {
+    .nav-bar-avata{
+        display: none;
+    }
+    .nav-name {
+        font-size: 0 !important;
+    }
+
+    #target {
+        height: auto;   
+        width: auto;
+    }
+    
+    #personal-info {
+        height: auto;
+        width: auto;
+    }
+
+    .row-design {
+        display: grid!important;
+        grid-template-columns: 50% 50%!important;
+    }
+
+    .col-design { 
+        height: auto!important;
+        width: auto!important;
+    }
+    
+    .certificate-design {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center!important;
+    }
+
+    .certificate-form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+
+    .certificate-text{
+        display: block;
+        margin-left: 10px;
+        transform: scale(0.9); 
+    }
+
+    .certificate-text-1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .centerline-design {
+        position: relative;
+        transform: translate(0, 252px);
+        border-bottom: 1px solid #d6c08d;
+    }
+    
+    .leftline-design {
+        position: absolute;
+        height: 180px;
+        left: 50%;
+        border-left:1px solid #d6c08d;
+        z-index: 10;
+    }
+
+    .project-design {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 10px;
+    }
+    .project-img {
+        width: 220px;
+        height:340px;
+    }
+
+}

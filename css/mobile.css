@@ -1,0 +1,105 @@
+@media screen and (max-width:740px) {
+    .nav-bar-avata{
+        display: none;
+    }
+    .nav-name {
+        font-size: 0 !important;
+        visibility: hidden !important;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto !important;
+        width: auto !important;
+        color: #1b1a1a;
+        border-top: 0px solid #f4f4f4;
+        border-bottom: 0px solid #f4f4f4;
+        margin-top: -50px !important;
+        margin-left: 16% !important;
+    }
+
+    .topnav a {
+        border-left: 0px solid #f4f4f4;
+        text-align: left !important;
+    }
+
+    .border-fake {
+        border-right: 0px solid #f4f4f4;
+    }
+
+    #target {
+        height: 300px;   
+        width: 500px;
+        
+    }
+    
+    #personal-info {
+        height: 300px;
+        width: 500px;
+    }
+
+    section > .container-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center!important;
+    }
+
+    .row-design {
+        display: grid!important;
+        grid-template-columns: 100%!important;
+    }
+
+    .col-design { 
+        height: auto!important;
+        width: auto!important;
+    }
+
+    .certificate-form {
+        display: grid!important;
+        grid-template-columns: 100%!important;
+
+    }
+
+    .certificate-design {
+        position: relative;
+        border-bottom: 1px solid #d6c08d;
+        padding-bottom: 40px;
+    }
+
+    .centerline-design {
+        display: none;
+    }
+    
+    .leftline-design {
+        display: none;
+    }
+
+    .project-design {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .project-img {
+        width: 380px;
+        height:340px;
+    }
+}
+
+
+@media screen and (max-width:580px) {
+    #target {
+        height: 300px;   
+        width: 500px;
+        margin-left: -600px;
+        
+    }
+    
+    #personal-info {
+        height: 300px;
+        width: 500px;
+        margin-left: -600px;
+    }
+
+
+}
