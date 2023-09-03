@@ -1,5 +1,3 @@
-# funix-assign3
-
 ```
 Assignment 02 Stater
 ├─ css
